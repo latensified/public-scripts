@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Uses a somewhat rigid expected file naming convention. This
+# could be made to be more flexible.
+
 # Check if a suffix was provided
 if [ -z "$1" ]; then
     echo "Usage: $0 <suffix>"
