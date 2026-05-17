@@ -4,6 +4,12 @@
 # Intended for my own workflow.
 # Test on copies first.
 
+# walk a directory tree
+# → read capture date
+# → flatten/de-nest files
+# → rebuild into YYYY/YYYY-MM-DD
+# → bring sidecars along
+
 set -euo pipefail
 IFS=$'\n\t'
 
